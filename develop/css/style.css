@@ -12,3 +12,8 @@ header div
   font-size: 25px;
   margin-right: 20px;
 }
+
+header div:first-child
+{
+  margin-right: auto;
+}
