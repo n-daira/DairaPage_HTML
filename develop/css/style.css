@@ -18,3 +18,9 @@ header div:first-child
 {
   margin-right: auto;
 }
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
