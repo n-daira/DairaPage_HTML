@@ -26,3 +26,9 @@ header div:first-child
   margin: 0px;
   padding: 0px;
 }
+
+.daira
+{
+  display: flex;
+  background: url(../image/background.png) no-repeat center/cover;
+}
