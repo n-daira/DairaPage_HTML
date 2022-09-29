@@ -27,8 +27,9 @@ header div:first-child
   padding: 0px;
 }
 
-.daira
+.pallaxContents
 {
+  width: 100%;
   display: flex;
   background: url(../image/background.png) no-repeat center/cover;
 }
