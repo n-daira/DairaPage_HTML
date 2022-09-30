@@ -3,18 +3,35 @@
 
 <head>
     <meta charset="UTF-8">
+
     <title>だいらページ</title>
+
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
+
+    <script src="js/rellax.min.js"></script>
 </head>
 
 <body>
+    <!--ヘッダー-->
     <header>
         <div> <img src="./image/header_logo.png" height="40px"/> </div>
         <div> Youtube </div>
         <div> Twitter </div>
         <div> Tiktok </div>
     </header>
+
+    <!--パララックス実装-->
+    <div class="pallaxContents">
+        <img src="./image/daira.png" class="daira js-rellax" data-rellax-speed="1.5" data-rellax-zindex="2"/>
+    </div>
+
 </body>
+
+<script>
+    var rellax = new Rellax('.js-rellax', {
+        center: true,
+    });
+</script>
 
 </html>
