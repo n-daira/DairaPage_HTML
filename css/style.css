@@ -1,11 +1,21 @@
-.pallaxContents
+.background
 {
   width: 100%;
-  display: flex;
-  background: url(../image/background.png) no-repeat center/cover;
+  position: relative;
 }
 
 .daira
 {
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ball
+{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
